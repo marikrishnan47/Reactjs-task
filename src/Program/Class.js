@@ -92,7 +92,7 @@ let mobiles = [{
            <>
           
               {mobile.map((value,index)=>{
-                 console.log(this.mobiles);
+                
                  return(
                 <div key={index}>
                     <h1>Name:{value.name}</h1>
